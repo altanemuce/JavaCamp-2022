@@ -1,0 +1,22 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		double dolarDun = 18.35;
+		double dolarBugun = 18.30;
+
+		boolean dolarDustuMu = false;
+
+		String okYonu = "";
+
+		if (dolarBugun < dolarDun) {
+			okYonu = "down.svg";
+		} else if (dolarBugun > dolarDun) {
+			okYonu = "up.svg";
+		}
+
+	}
+
+}
