@@ -1,0 +1,15 @@
+package oop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product productOne = new Product();
+		productOne.name = "Delonghi Kahve Makinesi";
+		productOne.unitPrice = 7500;
+		productOne.discount = 3;
+		productOne.unitsInStock = 4;
+		productOne.imageUrl = "";
+	}
+
+}

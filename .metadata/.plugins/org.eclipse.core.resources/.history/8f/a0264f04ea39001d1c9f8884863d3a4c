@@ -1,0 +1,56 @@
+package oop1;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product productOne = new Product();
+		productOne.setName("Delonghi Kahve Makinesi");
+		productOne.setDiscount(7);
+		productOne.setUnitPrice(7500);
+		productOne.setUnitsInStock(25);
+		productOne.setImageUrl("DelonghiKahveMakinesi.img");
+
+		// set value
+		
+		
+		Product productTwo = new Product();
+		productOne.setName("Vestel Kahve Makinesi");
+		productOne.setDiscount(7);
+		productOne.setUnitPrice(2000);
+		productOne.setUnitsInStock(78);
+		productOne.setImageUrl("vestelkahvemakinesi.img");
+		
+		
+		Product productThree = new Product();
+		productOne.setName("Arçelik Kahve Makinesi");
+		productOne.setDiscount(2);
+		productOne.setUnitPrice(12000);
+		productOne.setUnitsInStock(5);
+		productOne.setImageUrl("arçelikkahvemakinesi.img");
+		
+
+		// get value
+		System.out.println(productOne.imageUrl);
+		
+		Product[] productsOne= {productOne,productTwo,productThree};
+		
+		for (Product product : productsOne) {
+			System.out.println(product.name);
+		}
+
+		ArrayList<Product> products = new ArrayList<Product>();
+		products.add(productOne);
+		products.add(productTwo);
+		products.add(productThree);
+		
+
+		for (Product product : products) {
+			System.out.println("Ürün : "+product.name+product.unitPrice+product.discount+product.unitsInStock+ product.imageUrl);
+		}
+
+	}
+
+}
