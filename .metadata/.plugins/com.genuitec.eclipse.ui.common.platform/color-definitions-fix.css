@@ -2388,6 +2388,17 @@ IEclipsePreferences#org-eclipse-wst-jsdt-ui {
 		'semanticHighlighting.methodDeclarationName.underline=false'
 		'tagName=255,255,255'
 }
+IEclipsePreferences#org-eclipse-wst-json-ui {
+	preferences:
+		'COLON=#ffffff | null | false | false | false | false'
+		'COMMA=#ffffff | null | false | false | false | false'
+		'CURLY_BRACE=#ffffff | null | false | false | false | false'
+		'OBJECT_KEY=#bed6ff | null | false | false | false | false'
+		'VALUE_BOOLEAN=#03a8d8 | null | false | false | false | false'
+		'VALUE_NULL=#89969f | null | false | false | false | false'
+		'VALUE_NUMBER=#cb4f40 | null | false | false | false | false'
+		'VALUE_STRING=#ffc600 | null | true | true | false | false'
+}
 IEclipsePreferences#org-eclipse-wst-sse-ui {
 	preferences:
 		'content_assist_completion_replacement_background=200,200,0'
